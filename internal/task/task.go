@@ -1,8 +1,8 @@
 package task
 
 type Task struct {
-	ID 		string		`json:"id"`
+	ID 			string		`json:"id"`
 	Title 		string		`json:"title"`
-	Description 	string		`json:"description"`
+	Description string		`json:"description"`
 	Status 		bool		`json:"status"`
 }
